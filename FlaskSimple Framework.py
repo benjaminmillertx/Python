@@ -10,10 +10,9 @@ Key Features
     Error Handling: Implement error handling to manage exceptions gracefully.
     Complex Data Interactions: Provide more advanced querying and data handling mechanisms.
 
-Complete Code Example
+Complete Code 
 
-Here’s the complete and updated code with new features and improvements:
-python
+
 
 from flask import Flask, render_template_string, request, redirect, url_for, flash, jsonify
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
